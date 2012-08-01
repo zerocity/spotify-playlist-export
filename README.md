@@ -1,21 +1,14 @@
-Spotify Playlist Export
-=======================
+Export playlists from Spotify into YouTube
+==========================================
 
-### What is this
+### What does this do?
 
-Converts a spotify exports list of HTTP URI into a __useful__ format.
+1. Takes a Spotify HTTP URI's list, parses the URI's for artist &amp; song info.
+2. Takes that info &amp; searches Google for a YouTube video.
+3. Sticks those videos into a new playlist in your YouTube account.
 
-### Motivation
+### Python Dependencies
 
-Exporting spotify playlists elsewhere.
-
-### Instructions
-
-1. In your playlist select all the items you wish to export, right click then select copy http uri. 
-2. Paste into a text editor and save somewhere.
-3. Run ```python spe.py (path to file in step 2)``` You should get an output of all the meta data.
-
-
-### Dependencies
-
-* BeautifulSoup
+* BeautifulSoup (http://www.crummy.com/software/BeautifulSoup/)
+* googleplex (http://googolplex.sourceforge.net/)
+* gdata (http://code.google.com/p/gdata-python-client/)
