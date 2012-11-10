@@ -10,8 +10,11 @@ Export playlists from Spotify into YouTube
 ### Python Dependencies
 
 * BeautifulSoup (http://www.crummy.com/software/BeautifulSoup/)
+  - pip install BeautifulSoup
 * googleplex (http://googolplex.sourceforge.net/)
+  - or https://github.com/MarioVilas/google
 * gdata (http://code.google.com/p/gdata-python-client/)
+  - pip install gdata
 
 ### Requirements
 
